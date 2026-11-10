@@ -1,4 +1,108 @@
 /* Zainab-uz-Zuha | 26i-3269 | SE-B */
+
+/* Theme Variables */
+:root {
+    --dark-green: #1B3B2B;
+    --cream: #F3EAD7;
+    --brown: #4A2E1B;
+    --light-brown: #6F4E37;
+}
+
 body {
-    background-color: #F3EAD7;
+    background-color: var(--cream);
+    color: var(--brown);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, serif;
+    color: var(--dark-green);
+}
+
+/* Header & Navigation Bar */
+header {
+    background-color: var(--dark-green);
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    color: var(--cream);
+    margin: 0 0 10px 0;
+}
+
+nav a {
+    color: var(--cream);
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+nav a:hover {
+    color: #D4C3A3;
+    text-decoration: underline;
+}
+
+/* Page Layout */
+.content-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Menu Table Styling */
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #FAF6EE;
+}
+
+.menu-table th, .menu-table td {
+    border: 1px solid var(--brown);
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.menu-table th {
+    background-color: var(--dark-green);
+    color: var(--cream);
+    font-family: Georgia, serif;
+}
+
+.menu-table tr:nth-child(even) {
+    background-color: #EFE4CE;
+}
+
+/* Interactive Button */
+.button-wrapper {
+    margin-top: 25px;
+}
+
+.order-btn {
+    background-color: var(--dark-green);
+    color: var(--cream);
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.order-btn:hover {
+    background-color: var(--brown);
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--dark-green);
+    color: var(--cream);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px;
 }
