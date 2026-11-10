@@ -106,3 +106,35 @@ footer {
     padding: 1rem;
     margin-top: 50px;
 }
+
+/* --- About Us Page Extensions --- */
+.story-section p {
+    line-height: 1.6;
+    font-size: 1.05rem;
+    max-width: 750px;
+    margin: 0 auto 30px auto;
+}
+
+.sourcing-section {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #FAF6EE;
+    padding: 25px;
+    border: 1px solid var(--brown);
+    border-radius: 6px;
+}
+
+.sourcing-section h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.sourcing-list {
+    line-height: 1.8;
+    color: var(--brown);
+    padding-left: 20px;
+}
+
+.sourcing-list li {
+    margin-bottom: 10px;
+}
