@@ -138,3 +138,60 @@ footer {
 .sourcing-list li {
     margin-bottom: 10px;
 }
+
+
+/* --- Contact Page Extensions --- */
+.contact-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.info-card, .form-card {
+    background-color: #FAF6EE;
+    border: 1px solid var(--brown);
+    border-radius: 6px;
+    padding: 25px;
+    flex: 1 1 350px;
+    max-width: 420px;
+}
+
+.info-card h3, .form-card h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.info-card ul {
+    padding-left: 20px;
+    margin: 5px 0 0 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--brown);
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--brown);
+    border-radius: 4px;
+    background-color: #FFFDF9;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: 2px solid var(--dark-green);
+}
