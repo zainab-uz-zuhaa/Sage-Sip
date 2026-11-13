@@ -1,73 +1,81 @@
-<!--Zainab-uz-Zuha | 26i-3269 | SE-B -->
+<!-- Zainab-uz-Zuha | 26i-3269 | SE-B -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Sage & Sip </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-    <h1>Sage & Sip</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<head>
+<title>Sage & Sip</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top green navigation bar -->
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact</a>
+</nav>
 </header>
-        <br><br> 
-        <center>
-            <table> 
-                <tr>
-                    <td><h1 style="font-size: 60px;">Sage & Sip<h1</td>
-                        <td width="50"></td>
-                 </td><img src="images/cafe.jpg" alt="Matcha latte" width="300"></td>    
-                </tr>
-            </table>
-        </center>
-        <br><br>
-     <center> 
-         <table border = "1">
-  <tr>
-    <th>Item</th>
-    <th>Description</th>
-    <th>Price</th>
-  </tr>
-  <tr>
-    <td>Matcha Latte</td>
-    <td>Matcha with milk</td>
-    <td>Rs. 600</td>
-  </tr>
-  <tr>
-    <td>Iced Coffee</td>
-    <td>Cold coffee with ice</td>
-    <td>Rs. 500</td>
-  </tr>
-  <tr>
-    <td>Chai</td>
-    <td>Hot milk tea</td>
-    <td>Rs. 300</td>
-  </tr>
-  <tr>
-    <td>Cold Brew</td>
-    <td>Strong cold coffee</td>
-    <td>Rs. 550</td>
-  </tr>
-  <tr>
-    <td>Lemonade</td>
-    <td>Fresh lemon drink</td>
-    <td>Rs. 350</td>
-  </tr>
-        </table>
-         <br><br>
-        <button onclick="orderNow()">Order</button>
-     </center>
-        <script> function orderNow() {
-            alert("Your Order has been confirmed!");
-        }
-            </script>
-        <footer> 
-            <p>&copy; 2026 Sage & Sage | Developed by Zainab-uz-Zuha (26i-3269)</p>
-        </footer>
-    </body>
+
+<div class="content-container">
+
+<!-- Sage & Sip aur Image ko aamne-saamne rakhne ke liye -->
+<div style="display: flex; align-items: center; justify-content: center; gap: 40px; margin-top: 40px; margin-bottom: 40px;">
+<h1 style="font-size: 60px; margin: 0; color: var(--dark-green);">Sage & Sip</h1>
+<img src="images/cafe.jpg" alt="Matcha latte" width="300" style="border-radius: 8px;">
+</div>
+
+<!-- Aapka Menu Table -->
+<table class="menu-table">
+<tr>
+<th>Item</th>
+<th>Description</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>Matcha Latte</td>
+<td>Matcha with milk</td>
+<td>Rs. 600</td>
+</tr>
+<tr>
+<td>Iced Coffee</td>
+<td>Cold coffee with ice</td>
+<td>Rs. 500</td>
+</tr>
+<tr>
+<td>Chai</td>
+<td>Hot milk tea</td>
+<td>Rs. 300</td>
+</tr>
+<tr>
+<td>Cold Brew</td>
+<td>Strong cold coffee</td>
+<td>Rs. 550</td>
+</tr>
+<tr>
+<td>Lemonade</td>
+<td>Fresh lemon drink</td>
+<td>Rs. 350</td>
+</tr>
+</table>
+
+<!-- Order Button center mein -->
+<div class="button-wrapper" style="text-align: center; margin-top: 30px; margin-bottom: 40px;">
+<button class="order-btn" onclick="orderNow()">Order</button>
+</div>
+
+</div>
+
+<script>
+function orderNow() {
+alert("Your Order has been confirmed!");
+}
+</script>
+
+<footer>
+<p>&copy; 2026 Sage & Sip | Developed by Zainab-uz-Zuha (26i-3269)</p>
+</footer>
+
+</body>
 </html>
+
