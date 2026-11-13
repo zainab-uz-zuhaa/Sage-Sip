@@ -81,6 +81,7 @@ nav a:hover {
 /* Interactive Button */
 .button-wrapper {
     margin-top: 25px;
+    text-align: center; 
 }
 
 .order-btn {
